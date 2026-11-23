@@ -1,0 +1,47 @@
+name: samosa_app
+description: "Samosa House - The Best Indian Samosa Delivery App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  google_fonts: ^6.2.1
+  flutter_rating_bar: ^4.0.1
+  lottie: ^3.1.2
+  intl: ^0.19.0
+  uuid: ^4.4.2
+  timeline_tile: ^2.0.0
+  smooth_page_indicator: ^1.2.0+3
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+  flutter_animate: ^4.5.0
+  pinput: ^5.0.0
+  flutter_svg: ^2.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svg/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFF8F0"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"

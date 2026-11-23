@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="mintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="50%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+    <linearGradient id="tamarindGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D84315"/>
+      <stop offset="50%" stop-color="#BF360C"/>
+      <stop offset="100%" stop-color="#870000"/>
+    </linearGradient>
+    <linearGradient id="bowlGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </linearGradient>
+  </defs>
+  <!-- Bowl 1: Mint (Green) -->
+  <ellipse cx="32" cy="78" rx="26" ry="6" fill="#000000" opacity="0.15"/>
+  <path d="M 8 50 Q 8 74 32 74 Q 56 74 56 50 Z" fill="url(#bowlGrad)" stroke="#BDBDBD" stroke-width="2"/>
+  <ellipse cx="32" cy="50" rx="24" ry="11" fill="url(#mintGrad)"/>
+  <ellipse cx="32" cy="48" rx="16" ry="6" fill="#66BB6A" opacity="0.4"/>
+  <!-- Mint Leaf on Green Bowl -->
+  <path d="M 32 44 Q 38 41 36 36 Q 30 38 32 44 Z" fill="#81C784"/>
+  <path d="M 32 44 Q 26 42 27 37 Q 32 39 32 44 Z" fill="#A5D6A7"/>
+
+  <!-- Bowl 2: Tamarind/Sweet (Red/Brown) -->
+  <ellipse cx="68" cy="78" rx="26" ry="6" fill="#000000" opacity="0.15"/>
+  <path d="M 44 50 Q 44 74 68 74 Q 92 74 92 50 Z" fill="url(#bowlGrad)" stroke="#BDBDBD" stroke-width="2"/>
+  <ellipse cx="68" cy="50" rx="24" ry="11" fill="url(#tamarindGrad)"/>
+  <ellipse cx="68" cy="48" rx="16" ry="6" fill="#FF7043" opacity="0.4"/>
+  <!-- Coriander / Garnish specks -->
+  <circle cx="64" cy="48" r="1.5" fill="#FFCCBC"/>
+  <circle cx="73" cy="51" r="1.5" fill="#FFE0B2"/>
+  <circle cx="69" cy="46" r="1.2" fill="#FFFFFF" opacity="0.6"/>
+</svg>

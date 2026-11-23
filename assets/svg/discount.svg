@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6F00"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+  </defs>
+  <path d="M 50 5 L 61 17 L 77 15 L 83 30 L 97 37 L 95 53 L 102 67 L 91 78 L 91 95 L 75 97 L 67 110 L 50 104 L 33 110 L 25 97 L 9 95 L 9 78 L -2 67 L 5 53 L 3 37 L 17 30 L 23 15 L 39 17 Z" transform="scale(0.85) translate(8, 8)" fill="url(#badgeGrad)"/>
+  <text x="50" y="44" font-family="Arial, sans-serif" font-weight="900" font-size="20" fill="#FFFFFF" text-anchor="middle">HOT</text>
+  <text x="50" y="65" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#FFE082" text-anchor="middle">OFFER</text>
+</svg>
